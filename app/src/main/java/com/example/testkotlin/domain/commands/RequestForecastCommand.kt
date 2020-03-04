@@ -1,6 +1,6 @@
 package com.example.testkotlin.domain.commands
 
-import com.example.testkotlin.data.ForecastRequest
+import com.example.testkotlin.data.server.ForecastRequest
 import com.example.testkotlin.domain.mappers.ForecastDataMapper
 import com.example.testkotlin.domain.model.ForecastList
 

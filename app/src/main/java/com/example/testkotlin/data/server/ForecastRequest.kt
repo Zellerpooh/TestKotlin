@@ -1,4 +1,4 @@
-package com.example.testkotlin.data
+package com.example.testkotlin.data.server
 
 
 import com.google.gson.Gson
