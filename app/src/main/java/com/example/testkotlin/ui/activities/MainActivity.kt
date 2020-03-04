@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testkotlin.R
+import com.example.testkotlin.data.db.ForecastDbHelper
 import com.example.testkotlin.domain.commands.RequestForecastCommand
 import com.example.testkotlin.domain.model.Forecast
 import com.example.testkotlin.ui.adapters.ForecastListAdapter
@@ -40,7 +41,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
-
 
 }
 
